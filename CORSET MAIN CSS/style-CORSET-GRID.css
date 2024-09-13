@@ -1,0 +1,107 @@
+.Corset-Main-Css {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    background-image: url(../Images/CorsetMain/Beige\ Aesthetic\ Reiki\ and\ Energy\ Healing\ Workshop\ Mockup\ Facebook\ Post.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: end;
+    align-items: first baseline;
+    height: 800px;
+  }
+  .CSSimagecorset{
+    position: relative;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 80px;
+    padding-top: 85px;
+    background-image: url(../Images/background-corset-text.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 70px;
+    box-shadow: 5px 5px 10px rgba(94, 93, 93, 0.993);
+  }
+  .CSSimagecorset, img {
+    max-width: 100%;
+  }
+  .imagecorset {
+    width: 250px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: solid rgb(241, 241, 241) 3px;
+  }
+  .CSS-bottom-text {
+    position: absolute;
+    inset: 0;
+    top: 90%;
+    font-family: LibreItalic;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: rgb(53, 16, 28);
+    text-align: center;
+  }
+  .CSS-new-arrival {
+    position: absolute;
+    inset: 0;
+    top: 5px;
+    font-family: LibreItalic;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: rgb(53, 16, 28);
+  }
+  
+
+
+@media (max-width: 816px) {
+    .CSSimagecorset{
+    margin: 40px;
+    }
+  }
+  @media (max-width: 755px) {
+  
+    .Corset-Main-Css {
+      height: 770px;
+    }
+  }
+  @media (max-width: 720px) {
+    .Corset-Main-Css {
+      height: 750px;
+    }
+  }
+  @media (max-width: 700px) {
+    .CSS-bottom-text {
+      top: 88%;
+      font-size: 20px;
+    }
+    .CSS-new-arrival {
+      font-size: 25px;
+      top: 3%;
+    }
+  }
+  @media (max-width: 660px) {
+    .Corset-Main-Css {
+      height: 685px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .Corset-Main-Css {
+      height: 630px;
+    }
+  }
+  @media (max-width: 550px) {
+    .Corset-Main-Css {
+      height: 580px;
+    }
+  }
+  @media (max-width: 500px) {
+    .Corset-Main-Css {
+      height: 530px;
+    }
+  }

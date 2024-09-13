@@ -1,0 +1,172 @@
+.LastLineGrid-css {
+    padding-top: 200px;
+    padding-bottom: 250px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    text-align: center;
+     color: #775858;
+    
+  }
+  .LastLineGrid-css1 {
+    position: relative;
+    padding-left: 150px;
+    padding-right: 30px;
+    display: grid;
+    justify-content: end;
+    height: 100%;
+    
+  }
+  .Care-css {
+    position: absolute;
+    inset: 0;
+    top: 220px;
+    left: 110px;
+    color: #775858;
+    font-weight: 600;
+  }
+  .LastLineGrid-css2 {
+    position: relative;
+    border-left: solid  #e9b0b0 1px;
+    border-right: solid  #e9b0b0 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .Size-css {
+    position: absolute;
+    inset: 0;
+    top: 220px;
+    color: #775858;
+    font-weight: 600;
+  }
+  .LastLineGrid-css3 {
+    position: relative;
+    display: grid;
+    padding-right: 150px;
+    padding-left: 30px;
+  }
+  .Return-css {
+    position: absolute;   
+    inset: 0;
+    top: 220px;
+    right: 115px;
+    color: #775858;
+    font-weight: 600;
+  }
+  .FirstLine {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 1600px) {
+    .Care-css {
+    top: 270px;
+  }
+  .Size-css {
+    top: 270px;
+  }
+  .Return-css {
+    top: 270px;
+  }
+  }
+  @media (max-width: 1400px) {
+    .LastLineGrid-css1 {
+      padding-left: 100px;
+    }
+    .LastLineGrid-css3 {
+      padding-right: 100px;
+    }
+      .Care-css {
+    left: 70px;
+    top: 290px;
+  }
+  .Size-css {
+    top: 290px;
+  }
+  .Return-css {
+    right: 70px;
+    top: 290px;
+  }
+  }
+    @media (max-width: 1199px) { 
+    .LastLineGrid-css {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+          .Care-css {
+    top: 320px;
+  }
+  .Size-css {
+    top: 320px;
+  }
+  .Return-css {
+    top: 320px;
+  }
+  }
+  @media (max-width: 1100px) {
+    .LastLineGrid-css1 {
+      padding-left: 70px;
+    }
+    .LastLineGrid-css3 {
+      padding-right: 70px;
+    }
+        .Care-css {
+    left: 35px;
+    top: 340px;
+  }
+  .Size-css {
+    top: 340px;
+  }
+  .Return-css {
+    right: 35px;
+    top: 340px;
+  }
+  }
+  @media (max-width: 1000px) { 
+    .Care-css {
+    top: 380px;
+  }
+  .Size-css {
+     top: 380px;
+  }
+  .Return-css {
+  
+     top: 380px;
+  }
+  }
+  @media (max-width: 900px) {
+    .LastLineGrid-css {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 50px;
+    }
+    .LastLineGrid-css1 {
+      padding-left: 100px;
+      padding-right: 100px; 
+      
+    }
+    .LastLineGrid-css2 {
+    border: none;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .LastLineGrid-css3 {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  .Care-css {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .Size-css {
+   
+     position: relative;
+     top: 0;
+  }
+  .Return-css {
+     position: relative;
+     top: 0;
+     right: 0;
+  }
+  }

@@ -1,0 +1,34 @@
+.Free-Shipping-Color {
+    background-color: rgb(236, 132, 165);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Free-Shipping-Text {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+    
+}
+
+@media (max-width: 1493px) {
+  .Free-Shipping-Text {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 1293px) {
+  .Free-Shipping-Text {
+    font-size: 11px;
+     margin-left: 15%;
+    margin-right: 15%;
+}
+}
+@media (max-width: 650px) {
+  .Free-Shipping-Text {
+    font-size: 11px;
+     margin-left: 5%;
+    margin-right: 5%;
+}
+}

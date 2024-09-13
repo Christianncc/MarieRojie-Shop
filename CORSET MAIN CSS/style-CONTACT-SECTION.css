@@ -1,0 +1,85 @@
+.Name-Corset-Style, a {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: 500;
+    font-weight: 500;
+    font-style: normal;
+  text-decoration: none;
+  color: black;
+  }
+  
+  .Contact-Company-Grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  }
+  
+  .Connected-Grid {
+      margin-top: 30px;
+      margin-left: 30px;
+  }
+  .Contact-Company-Text {
+      font-family: LibreItalic;
+      font-style: italic;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 50px;
+      margin-bottom: 35px;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .Contact-Company-2 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: 500;
+    font-weight: 500;
+    font-style: normal;
+      margin-bottom: 80px;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .Input-Grid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+  }
+  .Input-Style {
+      height: 30px;
+      width: 300px;
+      border: solid rgb(190, 190, 190) 2px;
+  }
+  .Sign-Up-Style {
+      height: 36px;
+      background-color: rgb(43, 42, 42);
+      color: aliceblue;
+      border: none;
+      margin-left: 5px;
+  }
+  .Contact-Details-Style {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: 500;
+    font-weight: 500;
+    font-style: normal;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+      border-top: solid rgb(190, 190, 190) 1px;  
+      color: rgb(252, 254, 255);
+      background-color: rgb(122, 61, 80);
+      padding-bottom: 40px;
+  }
+  .Customer-Service-Style {
+  margin-left: 20px;
+  }
+  .Customer-Service-Text {
+      margin-top: 30px;
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+  .Customer-Service-Text2 {
+      margin-bottom: 10px;
+      line-height: 25px;
+  }
+  
+  
+  
+  

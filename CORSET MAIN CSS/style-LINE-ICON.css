@@ -1,0 +1,155 @@
+.LinesSection{
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .LinesSection1{
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .LinesCss {
+    width: 100%;
+    height: 45px;
+    position: relative;
+  }
+  .LinesCss::after, .LinesCss::before{
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #e9b0b0;
+    width: 38%;
+    top: 50%;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .LinesCss::after{
+    left: 0;
+  }
+  .LinesCss::before{
+    right: 0;
+  }
+  .heart {
+    height: 40px;
+    width: 40px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+  }
+  .middleLineGrid-css {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
+  }
+  .middleLineGrid-css1-img {
+    height: 300px;
+    border-radius: 50%;
+  }
+  .middleLineGrid-css1 {
+    display: grid;
+    justify-content: end;
+    padding-right: 70px;
+  }
+  .middleLineGrid-css2 {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding-right: 370px;
+    color: #775858;
+  }
+  @media (max-width: 1576px) {
+    .LinesCss::after, .LinesCss::before{
+      width: 38%;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    .LinesSection{
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .LinesSection1{
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  }
+  @media (max-width: 1400px) {
+    .middleLineGrid-css2{
+      padding-right: 250px;
+    }
+    .LinesSection{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .LinesSection1{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  }
+    @media (max-width: 1199px) {
+    .LinesSection{
+    padding-top: 100px;
+  }
+  .middleLineGrid-css {
+    grid-template-columns: 1fr;
+  }
+    .middleLineGrid-css1 {
+      justify-content: center;
+      padding-right: 0px;
+    }
+    .middleLineGrid-css2 {
+      align-items: center;
+      text-align: center;
+      padding-right: 220px;
+      padding-left: 220px;
+    }
+    .middleLineGrid-css1-img {
+      height: 250px;
+    }
+  }
+  @media (max-width: 1182px) {
+    .LinesCss::after, .LinesCss::before{
+      width: 36%;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+      .LinesSection{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .LinesSection1{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  }
+  @media (max-width: 790px) {
+    .LinesCss::after, .LinesCss::before{
+      width: 35%;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+    @media (max-width: 760px) {
+    .middleLineGrid-css2 {
+      align-items: center;
+      text-align: center;
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+  }
+    @media (max-width: 600px) {
+    .middleLineGrid-css2 {
+      align-items: center;
+      text-align: center;
+      padding-right: 80px;
+      padding-left: 80px;
+    }
+  }
+  @media (max-width: 500px) {
+    .LinesCss::after, .LinesCss::before{
+      width: 40%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+

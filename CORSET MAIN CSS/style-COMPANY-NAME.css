@@ -1,0 +1,19 @@
+.Company-Name-Color {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-bottom: solid rgb(190, 190, 190) 1px;
+}
+.Company-Name-Text { 
+    text-align: center;
+    font-family: "Grey Qo", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    letter-spacing: 1px;
+    color: rgb(228, 79, 126);
+    text-shadow: 5px 5px 0px rgb(209, 233, 246),
+                10px 10px 0px rgb(246, 234, 203),
+                15px 15px 0px rgb(241, 211, 206),
+                20px 20px 0px rgb(238, 202, 213);
+        
+}
